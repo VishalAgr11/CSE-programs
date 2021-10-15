@@ -2,6 +2,10 @@
 Tried making a new searching algorithm
 Forget this :P
 It just turned out to be linear search with with extra steps
+
+reverse indexing:
+ A  B  C  D
+-4 -3 -2 -1
 '''
 
 l=[1,4,5,2,99,76,24,32]
