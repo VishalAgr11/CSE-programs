@@ -1,3 +1,18 @@
 '''
 matrix multiply
 '''
+a=eval(input("Enter matrix 1: "))
+b=eval(input("Enter matrix 2: "))
+s=[]
+for i in range(len(a)):
+    l=[]
+    for j in range(len(a[i])):
+        c=0
+        for k in range(len(b)):
+            c+=a[i][k]*b[k][j]
+        l.append(c)
+    s.append(l)
+    s.append('\n')
+   
+
+print(''.join(map(str,s)))
