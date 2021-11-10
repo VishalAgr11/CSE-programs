@@ -12,7 +12,7 @@ for i in range(len(a)):
             c+=a[i][k]*b[k][j]
         l.append(c)
     s.append(l)
-    s.append('\n')
-   
 
-print(''.join(map(str,s)))
+   
+for i in s:
+    print(i)
