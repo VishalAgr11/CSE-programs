@@ -1,3 +1,6 @@
+'''
+Calculate the internet browsing bill
+'''
 hrs=int(input("Hours Browsed: "))
 mins=int(input("Minutes browsed:"))
 amount=0

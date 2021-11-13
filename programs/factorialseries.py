@@ -1,3 +1,15 @@
+'''
+Print the factorials upto a limit
+eg: 
+Input: 5
+Output:
+1 1
+3 6
+5 120
+
+
+Moodle
+'''
 number=int(input())
 if number>=0:
     if number%2!=0:

@@ -1,3 +1,7 @@
+'''
+Calculate Bonus marks of a student
+moodle
+'''
 m=float(input())
 if m==0:
     print("Enter the appropriate mark")

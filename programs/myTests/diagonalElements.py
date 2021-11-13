@@ -11,4 +11,4 @@ for i in range(len(l)):
         if (i+j)==len(l)-1:
             if i!=(len(l)-1)/2:
                 secondary.append(l[i][j])
-print(primary,secondary)
+print("Primary Diagonal:",primary,'\n',"Secondary Diagonal:",secondary)

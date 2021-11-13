@@ -16,8 +16,8 @@ the fine is fixed at 10000 Rupees.
 
 Enter the date in dd/mm/yyyy format
 '''
-expected_date=list(map(int,input("Expected date").split('/')))
-returned_date=list(map(int,input("Returned date").split('/')))
+expected_date=list(map(int,input("Expected date:").split('/')))
+returned_date=list(map(int,input("Returned date:").split('/')))
 fine=0
 if expected_date[0]<=returned_date[0] and expected_date[1]==returned_date[1] and expected_date[2]==returned_date[2]:
     fine=0

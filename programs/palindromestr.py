@@ -16,6 +16,10 @@ else:
     print("Not palindrome")
 
 # number palindrome
+'''
+Check if the input number is a palindrome or not
+121 is a palindrome
+'''
 print("Number palindrome")
 n=int(input())
 k=n

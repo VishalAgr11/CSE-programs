@@ -10,8 +10,9 @@ for i in range(len(a)):
     for j in range(len(a[i])):
         l.append(a[i][j]+b[i][j])
     s.append(l)
-    s.append('\n')
+    
 
-print(''.join(map(str,s)))
+for i in s:
+    print(i)
 
 

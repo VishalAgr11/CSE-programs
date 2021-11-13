@@ -8,17 +8,14 @@ Find the total chocolate Bob can eat
 '''
 
 
-n=float(input("Money"))
-m=float(input("Discount"))
-c=float(input("Cost"))
+n=float(input("Money: "))
+m=float(input("Discount: "))
+c=float(input("Cost: "))
 chocolates=0
 if(n>=c):
     chocolates=n//c
     
-    total=chocolates//m+chocolates
-        
-    
-        
+    total=chocolates//m+chocolates      
     print(total)
     
         

@@ -1,5 +1,6 @@
 '''
 Selection sort in python
+Mine
 '''
 l=eval(input())
 

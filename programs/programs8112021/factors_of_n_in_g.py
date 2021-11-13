@@ -6,6 +6,4 @@ n=float(input("Number: "))
 for i in g:
     if n%i==0:
         print(i)
-    else:
-        print("No output")
 

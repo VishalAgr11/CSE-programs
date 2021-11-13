@@ -10,7 +10,7 @@ WAP to accept a list with the solution to the puzzle and check if it works
 Correct solution:
 [G,C,G,F,G]
 '''
-l=list(input("Enter solution"))
+l=list(input("Enter solution "))
 
 east=['F','G','C']
 west=[]

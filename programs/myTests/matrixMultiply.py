@@ -6,7 +6,7 @@ b=eval(input("Enter matrix 2: "))
 s=[]
 for i in range(len(a)):
     l=[]
-    for j in range(len(a[i])):
+    for j in range(len(b[i])):
         c=0
         for k in range(len(b)):
             c+=a[i][k]*b[k][j]

@@ -1,5 +1,6 @@
 '''
 Find the sum of digits till you reach a single digit
+Moodle
 '''
 n=int(input())
 sum=0

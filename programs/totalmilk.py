@@ -1,3 +1,8 @@
+'''
+WAP to find the total milk produced
+Moodle
+'''
+
 n=int(input("Farms number: "))
 i=0
 s=0
